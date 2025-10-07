@@ -1,0 +1,12 @@
+[project]
+name = "cli-tool"
+version = "0.1.0"
+description = "A simple example CLI tool to be run with uvx."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "rich>=14.1.0",
+]
+
+[project.scripts]
+cli-tool = "cli_tool.main:cli"
